@@ -164,4 +164,11 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <Target Name="CopyRoslynCompilerFilesToOutputDirectory" AfterTargets="AfterBuild">
+    <ItemGroup>
+      <RoslynFiles Include="$(SolutionDir)$(SolutionName)\DLL\roslyn\*" />
+    </ItemGroup>
+    <MakeDir Directories="$(SolutionDir)$(SolutionName)\bin\roslyn" />
+    <Copy SourceFiles="@(RoslynFiles)" DestinationFolder="$(SolutionDir)$(SolutionName)\bin\roslyn" SkipUnchangedFiles="true" Retries="$(CopyRetryCount)" RetryDelayMilliseconds="$(CopyRetryDelayMilliseconds)" />
+  </Target>
 </Project>
