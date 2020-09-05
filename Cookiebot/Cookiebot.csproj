@@ -60,19 +60,21 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="Telerik.Web.Design, Version=2017.2.711.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+    <Reference Include="Telerik.Web.Design, Version=2019.3.917.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\Cookiebot\Dll\Telerik.UI.for.AspNet.Ajax.Net45.2019.3.917\lib\net45\Telerik.Web.Design.dll</HintPath>
+      <HintPath>DLL\Telerik.Web.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Web.Device.Detection">
-      <HintPath>D:\Cookiebot\Dll\Telerik.UI.for.AspNet.Ajax.Net45.2019.3.917\lib\net45\Telerik.Web.Device.Detection.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.Web.UI, Version=2017.2.711.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+    <Reference Include="Telerik.Web.Device.Detection, Version=2019.3.917.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\Cookiebot\Dll\Telerik.UI.for.AspNet.Ajax.Net45.2019.3.917\lib\net45\Telerik.Web.UI.dll</HintPath>
+      <HintPath>DLL\Telerik.Web.Device.Detection.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.Web.UI.Skins">
-      <HintPath>D:\Cookiebot\Dll\Telerik.UI.for.AspNet.Ajax.Net45.2019.3.917\lib\net45\Telerik.Web.UI.Skins.dll</HintPath>
+    <Reference Include="Telerik.Web.UI, Version=2019.3.917.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2019.3.917.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Telerik.Web.UI.Skins.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -117,6 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="DLL\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
